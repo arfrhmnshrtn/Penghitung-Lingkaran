@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 370px;
+    /* background-color: lightblue; */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+h1{
+    font-size: 25px;
+    margin: 10px 0;
+    text-align: center;
+}
+.text{
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0 0 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.check{
+    font-size: 13px;
+    color: red;
+    margin: 0 20px;
+    display: none;
+    transition: all 1s ease;
+}
+select{
+    position: absolute;
+    right: 30px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgreen;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.input{
+    height: 30px;
+    width: 170px;
+    margin: 0 20px;
+    border: 1px solid lightgreen;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.input:focus{
+    border: 1px solid rgb(105, 192, 105);
+}
+.button{
+    width: 60px;
+    height: 30px;
+    margin: 10px 0 10px 20px;
+    outline: none;
+    background: salmon;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 12px;
+}
+.button:active{
+    font-size: 10px;
+}
